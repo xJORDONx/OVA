@@ -1,0 +1,20 @@
+# Ignore Windows system files
+Thumbs.db
+*.DS_Store
+*.lnk
+
+# Ignore system folders
+AppData/
+.cache/
+.DS_Store
+__pycache__/
+*.log
+
+# Ignore model & dataset cache
+.huggingface/
+datasets/
+models/
+
+# Ignore Python virtual environment
+venv/
+*.pyc
